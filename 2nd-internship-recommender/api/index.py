@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from recommender import recommend_internships
+from recommender import recommend_internships 
 from flask_cors import CORS
 from mangum import Mangum
 
